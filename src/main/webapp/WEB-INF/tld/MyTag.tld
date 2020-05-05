@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>MyTag</short-name>
+
+    <tag>
+        <name>captchaTag</name>
+        <tag-class>com.epam.borysenko.tag.CaptchaTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>avatarTag</name>
+        <tag-class>com.epam.borysenko.tag.AvatarTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>localisationTag</name>
+        <tag-class>com.epam.borysenko.tag.LocalisationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>lang</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+</taglib>

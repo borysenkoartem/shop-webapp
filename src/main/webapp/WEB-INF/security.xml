@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<security>
+    <constraint>
+        <url-pattern>/admin/</url-pattern>
+        <role>admin</role >
+    </constraint>
+    <constraint>
+        <url-pattern>/user/</url-pattern>
+        <role>user</role >
+    </constraint>
+</security>
